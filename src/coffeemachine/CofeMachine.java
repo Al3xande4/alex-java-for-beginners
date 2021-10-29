@@ -91,6 +91,8 @@ public class CofeMachine {
             case "3":
                 make(Cofe.cappuccino);
                 break;
+            case "4":
+                return;
             default:
                 System.out.println("Unknown symbol.");
         }
